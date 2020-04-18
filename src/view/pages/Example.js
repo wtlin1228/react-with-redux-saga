@@ -49,7 +49,7 @@ const Example = ({
         </select>
       </label>
 
-      <ul>
+      <ul data-testid="example-list">
         {exampleData && exampleData.map(item => <li key={item}>{item}</li>)}
       </ul>
     </div>

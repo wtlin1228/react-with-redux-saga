@@ -8,7 +8,7 @@ const App = () => {
   return (
     <React.StrictMode>
       <div>
-        <header>Citiesocial 3.0</header>
+        <header>React Saga Example</header>
         <Router>
           <Example path="/" />
           <Cart path="/cart" />
