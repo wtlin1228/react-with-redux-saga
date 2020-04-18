@@ -13,7 +13,7 @@ import {
   exampleAsyncActions,
   exampleConstants,
   exampleSelectors
-} from 'Example'
+} from 'core/Example'
 
 // components
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
-import configureAppStore, { sagaMiddleware, rootSaga } from 'Store'
 import { ThemeProvider } from 'styled-components'
-import { GlobalStyle, theme } from 'styles'
-import { App } from 'pages'
+import configureAppStore, { sagaMiddleware, rootSaga } from 'core/Store'
+import { GlobalStyle, theme } from 'view/styles'
+import { App } from 'view/pages'
 
 const store = configureAppStore()
 sagaMiddleware.run(rootSaga)
